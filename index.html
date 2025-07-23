@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Bakery Website</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Shrikhand&display=swap" rel="stylesheet">
+
+  <!-- feather icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- AlpineJS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  <!-- App -->
+  <script src="src/app.js"></script>
+
+</head>
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">Cloud<span>Bakery</span>★</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="images/menu/bread/1.png" alt="Product 1">
+        <div class="item-detail">
+          <h3>French Bread</h3>
+          <div class="item-price">
+            IDR 12,000
+          </div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div>
+    <!-- Shopping Cart end -->
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Hero Section start -->
+  <section class="hero" id="home">
+    <main class="content">
+      <h1>Various Kinds of <span>Desserts</span></h1>
+      <p>
+        Breads, Cakes, Cookies, Muffins, Cupcakes, Donuts, Pies, Special Menu.
+      </p>
+      <a href="#" class="cta">Buy Now</a>
+    </main>
+  </section>
+  <!-- Hero Section end -->
+
+  <!-- About Section start -->
+  <section id="about" class="about">
+    <h2><span>About</span>Us</h2>
+
+    <div class="row">
+      <div class="about-img">
+        <img src="images/bg/about2.png" alt="About Us" />
+      </div>
+      <div class="content">
+        <h3>Why, what's the reason you should choose our product?</h3>
+        <p>
+          Our products are made from high quality imported materials from abroad. Our products are clinically tested and produced hygienically, without chemicals.
+        </p>
+        <p>
+          There's no need to ask about taste, there are certainly many consumers who are satisfied with our products. The luxurious taste with a soft texture is very appetizing.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section end -->
+
+  <!-- Menu Section start -->
+  <section id="menu" class="menu">
+    <h2>Our<span>Menu</span></h2>
+    <p class="desk">
+      Select the product category you want to display.
+    </p>
+
+    <div class="row">
+      <div class="menu-card" id="bread-menu">
+        <a href="product/bread.html"><img src="images/cover/bread.png" alt="bread" class="menu-card-img"></a>
+        <h3 class="menu-card-title">- Bread -</h3>
+      </div>
+      <div class="menu-card" id="cake-menu">
+        <a href="product/cake.html"><img src="images/cover/cake.png" alt="bread" class="menu-card-img"></a>
+        <h3 class="menu-card-title">- Cake -</h3>
+      </div>
+      <div class="menu-card" id="cookie-menu">
+        <a href="product/cookie.html"><img src="images/cover/cookie.png" alt="bread" class="menu-card-img"></a>
+        <h3 class="menu-card-title">- Cookie -</h3>
+      </p>
+    </div>
+    <div class="menu-card" id="muffin-menu">
+      <a href="product/muffin.html"><img src="images/cover/muffin.png" alt="bread" class="menu-card-img"></a>
+      <h3 class="menu-card-title">- Muffin -</h3>
+    </div>
+    <div class="menu-card" id="cupcake-menu">
+      <a href="product/cupcake.html"><img src="images/cover/cupcake.png" alt="bread" class="menu-card-img"></a>
+      <h3 class="menu-card-title">- Cupcake -</h3>
+    </div>
+    <div class="menu-card" id="donut-menu">
+      <a href="product/donut.html"><img src="images/cover/donut.png" alt="bread" class="menu-card-img"></a>
+      <h3 class="menu-card-title">- Donut -</h3>
+    </div>
+    <div class="menu-card" id="pie-menu">
+      <a href="product/pie.html"><img src="images/cover/pie.png" alt="bread" class="menu-card-img"></a>
+      <h3 class="menu-card-title">- Pie -</h3>
+    </div>
+    <div class="menu-card" id="special-menu">
+      <a href="product/special.html"><img src="images/cover/special.png" alt="bread" class="menu-card-img"></a>
+      <h3 class="menu-card-title">- Special -</h3>
+    </div>
+  </div>
+</section>
+<!-- Menu Section end -->
+
+
+<!-- Contact Section start -->
+<section id="contact" class="contact">
+  <h2><span>Contact</span>Us</h2>
+  <p class="desk">
+    Type to send us a message.
+  </p>
+
+  <div class="row">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126748. 56347862248!2d107.57311709235512!3d-6. 903444341687889!2m3!1f0!2f0!3f0!3m2!1i10 24!2i768!4f13.1!3m3!1m2!1s0x2e68e6398252477f%3A0x146a1f93d3e815b2!2sBandung%2C%20Bandung%20Cit y%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1 672408575523!5m2!1sen!2sid" allowfullscreen="" loading="lazy"referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+
+    <form action="">
+      <div class="input-group">
+        <i data-feather="user"></i>
+        <input type="text" placeholder="nama">
+      </div>
+      <div class="input-group">
+        <i data-feather="mail"></i>
+        <input type="text" placeholder="email">
+      </div>
+      <div class="input-group">
+        <i data-feather="phone"></i>
+        <input type="text" placeholder="no hp">
+      </div>
+      <button type="submit" class="btn">kirim pesan</button>
+    </form>
+
+  </div>
+</section>
+<!-- Contact Section end -->
+
+<!-- Footer start -->
+<footer>
+  <div class="socials">
+    <a href="#"><i data-feather="instagram"></i></a>
+    <a href="#"><i data-feather="twitter"></i></a>
+    <a href="#"><i data-feather="facebook"></i></a>
+  </div>
+
+  <div class="links">
+    <a href="#home">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#menu">Menu</a>
+    <a href="#contact">Contact Us</a>
+  </div>
+
+  <div class="credit">
+    <p>
+      Created by <a href="">meitira</a>. | &copy; 2024.
+    </p>
+  </div>
+</footer>
+<!-- Footer end -->
+
+
+<!-- Feather Icons -->
+<script>
+  feather.replace();
+</script>
+
+
+<!-- My Javascript -->
+<script src="js/script.js"></script>
+</body>
+</html>
