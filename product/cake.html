@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Bakery Website</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Shrikhand&display=swap" rel="stylesheet">
+
+  <!-- feather icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">Cloud<span>Bakery</span>★</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="../images/menu/bread/1.png" alt="Product 1">
+        <div class="item-detail">
+          <h3>French Bread</h3>
+          <div class="item-price">
+            IDR 12,000
+          </div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div>
+    <!-- Shopping Cart end -->
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Product section start -->
+  <section class="products" id="products">
+    <h2><span>Bread</span></h2>
+    <!--p>
+                  Select the product category you want to display.
+                </p-->
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="detail-cake-1"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cake/1.png" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>White Cake</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 115,000 <span>IDR 200,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="detail-cake-2"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cake/2.png" alt="Product 2">
+        </div>
+        <div class="product-content">
+          <h3>Chocolate Cake</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 153,000 <span>IDR 200,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="detail-cake-3"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cake/3.png" alt="Product 3">
+        </div>
+        <div class="product-content">
+          <h3>Red Velvet Cake</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 175,000 <span>IDR 200,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="detail-cake-4"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cake/4.png" alt="Product 4">
+        </div>
+        <div class="product-content">
+          <h3>Lemon Cake</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 135,000 <span>IDR 200,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="detail-cake-5"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cake/5.png" alt="Product 5">
+        </div>
+        <div class="product-content">
+          <h3>Carrot Cake</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 185,000 <span>IDR 200,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="detail-cake-6"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cake/6.png" alt="Product 6">
+        </div>
+        <div class="product-content">
+          <h3>Vanilla Birthday Cake</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 145,000 <span>IDR 200,000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a href="../index.html#menu" class="back-button">Back to Menu</a>
+  <!-- Product section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+    <div class="credit">
+      <p>
+        Created by <a href="">meitira</a>. | &copy; 2024.
+      </p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Modal -->
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cake/1.png" alt="Product 1">
+          <h3>White Cake</h3>
+          <p>
+            A White/Vanilla Cake is a timeless indulgence, renowned for its delicate crumb, light texture, and irresistible vanilla flavor. Crafted from a blend of flour, sugar, butter, eggs, milk, baking powder, and pure vanilla extract, this cake embodies simplicity and elegance. Its velvety white crumb provides the perfect canvas for a myriad of frosting and filling options, from classic buttercream to decadent cream cheese frosting. Whether layered with fresh berries, adorned with edible flowers, or simply dusted with powdered sugar, a White/Vanilla Cake is a delightful centerpiece for any celebration or gathering. With its timeless appeal and universal charm, this cake is sure to bring joy and sweetness to every occasion.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+          IDR 115,000 <span>IDR 200,000</span>
+        </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal2">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cake/2.png" alt="Product 2">
+          <h3>Chocolate Cake</h3>
+          <p>
+            A Chocolate Cake is a decadent delight cherished for its rich, indulgent flavor and moist, tender texture. Crafted from a blend of flour, sugar, cocoa powder, eggs, butter or oil, milk or buttermilk, baking soda, and baking powder, this cake is a celebration of chocolate in its purest form. Its deep, dark crumb is infused with the intense aroma and flavor of cocoa, offering a truly indulgent experience for chocolate lovers. Whether frosted with silky ganache, layered with creamy chocolate mousse, or adorned with chocolate curls, a Chocolate Cake is a luxurious treat that satisfies even the most discerning sweet tooth. Perfect for birthdays, holidays, or any special occasion, this cake is sure to leave a lasting impression and evoke feelings of pure bliss with every bite.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+          IDR 153,000 <span>IDR 200,000</span>
+        </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal3">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cake/3.png" alt="Product 3">
+          <h3>Red Velvet Cake</h3>
+          <p>
+            A Red Velvet Cake is a luxurious confection loved for its striking red color, velvety texture, and subtle cocoa flavor. Crafted from a blend of flour, sugar, cocoa powder, eggs, buttermilk, butter or oil, vinegar, baking soda, and a hint of vanilla extract, this cake is as delicious as it is visually stunning. Its moist, tender crumb is complemented by a creamy tanginess from the buttermilk and vinegar, creating a perfectly balanced flavor profile. Traditionally adorned with a luscious cream cheese frosting, each slice of Red Velvet Cake is a decadent indulgence that captivates the senses. Whether enjoyed for a special occasion or as a delightful everyday treat, Red Velvet Cake is sure to leave a lasting impression with its rich taste and irresistible allure.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+          IDR 175,000 <span>IDR 200,000</span>
+        </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal4">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cake/4.png" alt="Product 4">
+          <h3>Lemon Cake</h3>
+          <p>
+            A Lemon Cake is a delightful confection cherished for its bright, citrusy flavor and moist, tender crumb. Crafted from a blend of flour, sugar, eggs, butter or oil, fresh lemon juice, lemon zest, baking powder, and a touch of vanilla extract, this cake is a celebration of zesty goodness. Its sunny yellow hue and refreshing aroma evoke feelings of warmth and happiness. Whether adorned with a tangy lemon glaze, a creamy lemon frosting, or simply dusted with powdered sugar, each slice of Lemon Cake offers a burst of vibrant flavor that tantalizes the taste buds. Perfect for any occasion, from afternoon tea to dessert at a summer barbecue, Lemon Cake is a refreshing treat that brightens any meal and brings a smile to every face.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+          IDR 135,000 <span>IDR 200,000</span>
+        </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal5">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cake/5.png" alt="Product 5">
+          <h3>Carrot Cake</h3>
+          <p>
+            Carrot Cake is a beloved classic known for its moist texture, warm spices, and decadent cream cheese frosting. Crafted from a blend of flour, sugar, eggs, oil, grated carrots, cinnamon, nutmeg, and sometimes walnuts or raisins, this cake is a flavorful delight. The natural sweetness of the carrots pairs perfectly with the aromatic spices, creating a comforting and indulgent treat. Topped with a creamy frosting made from cream cheese, butter, powdered sugar, and vanilla extract, Carrot Cake offers a perfect balance of sweetness and tanginess. Whether enjoyed as a dessert for a special occasion or as a sweet indulgence with a cup of coffee, Carrot Cake is a timeless favorite that never fails to delight the palate.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+          IDR 185,000 <span>IDR 200,000</span>
+        </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal6">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cake/6.png" alt="Product 6">
+          <h3>Vanilla Birthday Cake</h3>
+          <p>
+            A Vanilla Birthday Cake is a classic choice for celebrating special occasions, loved for its simplicity, versatility, and timeless appeal. Crafted from a blend of flour, sugar, eggs, butter or oil, milk, baking powder, and pure vanilla extract, this cake is a canvas for creativity and joy. Its tender crumb and delicate flavor make it a crowd-pleaser for all ages. Whether adorned with colorful sprinkles, adorned with candles, or layered with luscious frosting, a Vanilla Birthday Cake is a symbol of happiness and celebration. Perfect for birthdays, anniversaries, or any milestone moment, this cake brings smiles and memories that last a lifetime.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+          IDR 145,000 <span>IDR 200,000</span>
+        </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace();
+  </script>
+
+
+  <!-- My Javascript -->
+  <script src="../js/script.js"></script>
+</body>
+</html>

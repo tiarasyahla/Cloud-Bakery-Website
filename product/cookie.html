@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Bakery Website</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Shrikhand&display=swap" rel="stylesheet">
+
+  <!-- feather icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">Cloud<span>Bakery</span>★</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="../images/menu/bread/1.png" alt="Product 1">
+        <div class="item-detail">
+          <h3>French Bread</h3>
+          <div class="item-price">
+            IDR 12,000
+          </div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div>
+    <!-- Shopping Cart end -->
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Product section start -->
+  <section class="products" id="products">
+    <h2><span>Bread</span></h2>
+    <!--p>
+      Select the product category you want to display.
+    </p-->
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cookie/1.png" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Sugar Cookie</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 7,000 <span>IDR 15,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cookie/2.png" alt="Product 2">
+        </div>
+        <div class="product-content">
+          <h3>Snickerdoodle Cookie</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 8,500 <span>IDR 15,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cookie/3.png" alt="Product 3">
+        </div>
+        <div class="product-content">
+          <h3>Oatmeal Raisin Cookie</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 9,000 <span>IDR 15,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cookie/4.png" alt="Product 4">
+        </div>
+        <div class="product-content">
+          <h3>Chocolate Candy Cookie</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 12,000 <span>IDR 15,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cookie/5.png" alt="Product 5">
+        </div>
+        <div class="product-content">
+          <h3>Chocolate Chip Cookie</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 12,000 <span>IDR 15,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/cookie/6.png" alt="Product 6">
+        </div>
+        <div class="product-content">
+          <h3>Double Chocolate Chip Cookie</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 13,000 <span>IDR 15,000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a href="../index.html#menu#cookie-menu" class="back-button">Back to Menu</a>
+  <!-- Product section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+    <div class="credit">
+      <p>
+        Created by <a href="">meitira</a>. | &copy; 2024.
+      </p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Modal -->
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cookie/1.png" alt="Product 1">
+          <h3>Sugar Cookie</h3>
+          <p>
+            A Sugar Cookie is a simple yet delightful treat adored for its buttery flavor and sweet, crisp texture. Made from a combination of flour, sugar, butter, eggs, baking powder, and vanilla extract, this cookie dough is rolled out, cut into shapes, and baked until golden brown. Its versatility allows for endless decorating possibilities, from simple sprinkles to intricate frosting designs. Whether enjoyed on its own with a glass of milk or as a canvas for creative decorations, a Sugar Cookie is a timeless favorite that brings joy to every bite. Perfect for holidays, special occasions, or just a sweet indulgence anytime, these cookies are sure to satisfy any sweet tooth.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+            IDR 7,000 <span>IDR 15,000</span>
+          </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal2">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cookie/2.png" alt="Product 2">
+          <h3>Snickerdoodle Cookie</h3>
+          <p>
+            A Snickerdoodle Cookie is a delightful treat known for its soft, chewy texture and irresistible cinnamon-sugar coating. Made from a simple blend of flour, sugar, butter, eggs, cream of tartar, baking soda, and a pinch of salt, this cookie dough is rolled into balls, coated in a mixture of cinnamon and sugar, and baked to perfection. The result is a cookie with a slightly crispy exterior and a tender, melt-in-your-mouth center, bursting with warm cinnamon flavor. Whether enjoyed fresh from the oven with a glass of milk or shared with loved ones during the holidays, Snickerdoodle Cookies are a comforting and nostalgic indulgence that never fails to delight the senses.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+            IDR 8,500 <span>IDR 15,000</span>
+          </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal3">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cookie/3.png" alt="Product 3">
+          <h3>Oatmeal Raisin Cookie</h3>
+          <p>
+            An Oatmeal Raisin Cookie is a comforting and satisfying treat loved for its chewy texture and wholesome flavors. Made from a blend of oats, flour, sugar, butter, eggs, baking soda, cinnamon, and plump raisins, this cookie dough is rolled into balls and baked until golden brown. The oats lend a hearty texture, while the raisins add natural sweetness and a burst of flavor. Whether enjoyed as a midday snack, a lunchbox treat, or a cozy dessert paired with a cup of tea or coffee, an Oatmeal Raisin Cookie is a timeless favorite that evokes feelings of warmth and nostalgia with every bite.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+            IDR 9,000 <span>IDR 15,000</span>
+          </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal4">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cookie/4.png" alt="Product 4">
+          <h3>Chocolate Candy Cookie</h3>
+          <p>
+            A Chocolate Candy Cookie is a decadent delight filled with rich chocolate flavor and sweet candy surprises. Made from a blend of flour, cocoa powder, sugar, butter, eggs, baking soda, and a dash of salt, this cookie dough is studded with chunks of your favorite chocolate candy, such as chocolate chips, M&M's, or chopped candy bars. The result is a cookie with a soft, chewy texture and pockets of gooey melted chocolate throughout. Whether enjoyed as an afternoon pick-me-up, a special treat for dessert, or a festive addition to a holiday cookie platter, Chocolate Candy Cookies are a surefire way to satisfy any sweet tooth and indulge in pure chocolate bliss.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+            IDR 12,000 <span>IDR 15,000</span>
+          </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal5">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cookie/5.png" alt="Product 5">
+          <h3>Chocolate Chip Cookie</h3>
+          <p>
+            A Chocolate Chip Cookie is a beloved classic cherished for its buttery flavor, chewy texture, and pockets of melted chocolate goodness. Made from a simple blend of flour, sugar, butter, eggs, baking soda, salt, and of course, chocolate chips, this cookie dough is scooped onto baking sheets and baked until golden brown. The result is a cookie with a slightly crispy exterior and a soft, chewy center, packed with irresistible chocolate chips that melt in your mouth with every bite. Whether enjoyed fresh from the oven with a glass of milk, packed in a lunchbox for a sweet treat, or shared with friends and family during a cozy gathering, Chocolate Chip Cookies are a timeless favorite that brings joy to any occasion.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+            IDR 12,000 <span>IDR 15,000</span>
+          </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="modal6">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      </div>
+      <div class="modal-body">
+        <div class="product-content">
+          <img src="../images/menu/cookie/6.png" alt="Product 6">
+          <h3>Double Chocolate Chip Cookie</h3>
+          <p>
+            A Double Chocolate Chip Cookie is an indulgent delight for chocolate lovers, featuring a rich chocolate cookie dough loaded with plenty of chocolate chips for an extra decadent experience. Made from a blend of flour, cocoa powder, sugar, butter, eggs, baking soda, salt, and an abundance of chocolate chips, this cookie dough is baked to perfection, resulting in a soft, chewy cookie with intense chocolate flavor in every bite. Whether enjoyed as a luxurious treat with a glass of cold milk, shared at a cookie swap, or given as a special gift, Double Chocolate Chip Cookies are a guaranteed crowd-pleaser that satisfies even the most intense chocolate cravings.
+          </p>
+        </div>
+        <div class="product-stars">
+          <i data-feather="star" class="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+          <i data-feather="star"></i>
+        </div>
+        <div class="product-price">
+            IDR 13,000 <span>IDR 15,000</span>
+          </div>
+        <div class="modal-footer">
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace();
+  </script>
+
+
+  <!-- My Javascript -->
+  <script src="../js/script.js"></script>
+</body>
+</html>

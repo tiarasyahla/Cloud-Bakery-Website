@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Bakery Website</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Kalam:wght@300;400;700&family=Shrikhand&display=swap" rel="stylesheet">
+
+  <!-- feather icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+
+  <!-- My Style -->
+  <link rel="stylesheet" href="../css/style.css">
+
+</head>
+<body>
+
+  <!-- Navbar start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">Cloud<span>Bakery</span>★</a>
+
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+
+    <div class="navbar-extra">
+      <a href="#" id="search-button"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+
+    <!-- Search Form start -->
+    <div class="search-form">
+      <input type="search" id="search-box" placeholder="search here...">
+      <label for="search-box"><i data-feather="search"></i></label>
+    </div>
+    <!-- Search Form end -->
+
+    <!-- Shopping Cart start -->
+    <div class="shopping-cart">
+      <div class="cart-item">
+        <img src="../images/menu/bread/1.png" alt="Product 1">
+        <div class="item-detail">
+          <h3>French Bread</h3>
+          <div class="item-price">
+            IDR 12,000
+          </div>
+        </div>
+        <i data-feather="trash-2" class="remove-item"></i>
+      </div>
+    </div>
+    <!-- Shopping Cart end -->
+
+  </nav>
+  <!-- Navbar end -->
+
+  <!-- Product section start -->
+  <section class="products" id="products">
+    <h2><span>Bread</span></h2>
+    <!--p>
+      Select the product category you want to display.
+    </p-->
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/special/1.png" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Candy Fudge Brownie</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 12,000 <span>IDR 15,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/special/2.png" alt="Product 2">
+        </div>
+        <div class="product-content">
+          <h3>Cinnamon Bun</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 11,000 <span>IDR 15,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/special/3.png" alt="Product 3">
+        </div>
+        <div class="product-content">
+          <h3>Wedding Cake</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 357,000 <span>IDR 500,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/special/4.png" alt="Product 4">
+        </div>
+        <div class="product-content">
+          <h3>Baby Shower Cake</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 240,000 <span>IDR 400,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/special/5.png" alt="Product 5">
+        </div>
+        <div class="product-content">
+          <h3>Pretzel</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 10,000 <span>IDR 15,000</span>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="../images/menu/special/6.png" alt="Product 6">
+        </div>
+        <div class="product-content">
+          <h3>Chocolate Pretzel</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star" class="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 13,000 <span>IDR 15,000</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <a href="../index.html#menu#special-menu" class="back-button">Back to Menu</a>
+  <!-- Product section end -->
+
+  <!-- Footer start -->
+  <footer>
+    <div class="socials">
+      <a href="#"><i data-feather="instagram"></i></a>
+      <a href="#"><i data-feather="twitter"></i></a>
+      <a href="#"><i data-feather="facebook"></i></a>
+    </div>
+
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact Us</a>
+    </div>
+
+    <div class="credit">
+      <p>
+        Created by <a href="">meitira</a>. | &copy; 2024.
+      </p>
+    </div>
+  </footer>
+  <!-- Footer end -->
+
+  <!-- Modal Box Item Detail start -->
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="../images/menu/bread/1.png" alt="Product 1">
+        <div class="product-content">
+          <h3>French Bread</h3>
+          <p>
+            French bread is a light crusty, yeast-raised bread made with water, flour, and yeast. This comes in many shapes and sizes, including the classic baguette, rounds, and ovals.
+          </p>
+          <div class="product-stars">
+            <i data-feather="star" class="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">
+            IDR 12,000 <span>IDR 15,000</span>
+          </div>
+          <a href="#"><i data-feather="shopping-cart"></i><span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Box Item Detail end -->
+
+
+  <!-- Feather Icons -->
+  <script>
+    feather.replace();
+  </script>
+
+
+  <!-- My Javascript -->
+  <script src="../js/script.js"></script>
+</body>
+</html>
